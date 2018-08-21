@@ -21,43 +21,22 @@
         <div>
             <p id="errorMsg"></p>
         </div>
-        <div>
-            <label for="connected">Connected</label>
-            <input id="connected" type="checkbox">
+        <div style="display: flex; flex-direction: row">
+            <div>
+                <label for="work">Work</label>
+                <input id="work" type="checkbox">
+            </div>
+            <div>
+                <label for="connecting">Connecting</label>
+                <input id="connecting" type="checkbox">
+            </div>
+            <div>
+                <label for="disconnected">Disconnected</label>
+                <input id="disconnected" type="checkbox">
+            </div>
         </div>
         <button id="SubmitButton" type="button" disabled>Отправить</button>
     </form>
-
-<!--    <table>-->
-<!--        <tr>-->
-<!--            <td colspan="2"><b>Инфо по клиенту</b></td>-->
-<!--        </tr>-->
-<!--        <tr>-->
-<!--            <td>Название клиента</td>-->
-<!--            <td>[name_customer]</td>-->
-<!--        </tr>-->
-<!--        <tr>-->
-<!--            <td>компания</td>-->
-<!--            <td>[company]</td>-->
-<!--        </tr>-->
-<!--        <tr>-->
-<!--            <td colspan="2"><b>Информация про договор</b></td>-->
-<!--        </tr>-->
-<!--        <tr>-->
-<!--            <td>номер договора</td>-->
-<!--            <td>[number]</td>-->
-<!--        </tr>-->
-<!--        <tr>-->
-<!--            <td>дата подписания</td>-->
-<!--            <td>[date_sign]</td>-->
-<!--        </tr>-->
-<!--        <tr>-->
-<!--            <td colspan="2"><b>информация про сервисы</b></td>-->
-<!--        </tr>-->
-<!--        <tr>-->
-<!--            <td>[services_name]</td>-->
-<!--        </tr>-->
-<!--    </table>-->
 </body>
 </html>
 

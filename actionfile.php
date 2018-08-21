@@ -6,15 +6,13 @@
  * Time: 5:32 PM
  */
 require_once "DocumetPrint.php";
-//var_dump($_POST);
-//echo $_POST['inp'];
-//$obj = new DocumetPrint("123")
-//;
-test();
-function test(){
-    $data = [
-        'ID' => "Hello"
-    ];
-    echo json_encode($data);
-}
+//
+$checkboxes = [
+  "conn" => $_POST['conn'],
+    "work" => $_POST['work'],
+    "disc" => $_POST['disc']
+];
+$obj = new DocumetPrint($_POST['inp'], $_POST['type'], $checkboxes);
+$obj->printContracts();
+
 ?>
